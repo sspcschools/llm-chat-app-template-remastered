@@ -313,7 +313,7 @@
        */
       async function getCloudflareAIResponse(userMessage) {
         // !!! IMPORTANT: Replace this with your actual Worker URL !!!
-        const workerUrl = "/api/chat-worker"; // e.g., "https://my-worker.my-domain.workers.dev"
+        const workerUrl = "chat.js"; // e.g., "https://my-worker.my-domain.workers.dev"
 
         try {
           const response = await fetch(workerUrl, {
